@@ -9,14 +9,25 @@ body {
 header {
   background: #1e90ff;
   color: white;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
+nav {
+  margin-top: 1rem;
+}
+
 nav a {
-  margin: 0 1rem;
+  margin: 0 0.75rem;
+  padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffffff33; /* Light transparent white on hover */
 }
 
 main {
@@ -24,6 +35,8 @@ main {
   max-width: 800px;
   margin: auto;
   background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
