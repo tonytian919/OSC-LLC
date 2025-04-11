@@ -15,11 +15,11 @@ header {
   text-align: center;
 }
 
-.wave-divider {
-  height: 100px;
-  background: url('wave.svg') no-repeat center;
-  background-size: cover;
-  margin-bottom: -5px;
+.decorated-box {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  background-color: #fffdf2; /* soft yellow tint */
 }
 
 .main-heading {
