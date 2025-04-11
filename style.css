@@ -13,10 +13,8 @@ header {
   text-align: center;
 }
 
-.logo {
-  height: 60px;
-  margin-bottom: 0.5rem;
-  border-radius: 8px;
+.main-heading {
+  font-size: 10vm;
 }
 
 nav {
