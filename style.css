@@ -15,6 +15,13 @@ header {
   text-align: center;
 }
 
+.wave-divider {
+  height: 100px;
+  background: url('wave.svg') no-repeat center;
+  background-size: cover;
+  margin-bottom: -5px;
+}
+
 .main-heading {
   font-size: 4vw;
 }
